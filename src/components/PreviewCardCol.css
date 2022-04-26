@@ -1,0 +1,44 @@
+.preview-card-col {
+  padding: 2em;
+}
+
+.header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: hsl(0, 0%, 95%);
+}
+
+.para {
+  line-height: 25px;
+  margin-bottom: 5em;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-orange {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.card-dark-cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-very-dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .card-orange {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+  }
+
+  .card-very-dark-cyan {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 12px;
+  }
+}
